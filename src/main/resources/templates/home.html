@@ -1,0 +1,12 @@
+<!--suppress ALL -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile</title>
+  </head>
+  <body action="/profile" method="get">
+      <!--  <h1>Welcome, <span th:text="${userSession.user.username}"></span>!</h1>-->
+      <h2>Welcome, <span th:text="${username}"></span>!</h2>
+      <button action="/logout" method="get" type="submit">Login</button>
+  </body>
+</html>
